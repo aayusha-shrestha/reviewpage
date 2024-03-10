@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fody Slider</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <section id="review">
+      <h4 style="text-align: center; font-size: 40px; color:#6F4E37">Let customers speak for us</h4>
+      <div class="reviewContainer">
+        <div class="swiper reviewSlider">
+          <div class="swiper-wrapper">
+            <!-- Slide-start -->
+            <div class="swiper-slide reviewSlide">
+              <div class="reviewContent activeReview">
+                <p class="reviewText">
+                  Im happy that I picked Bakemandu for my friend's birthday. Best one I've had. I truly recommend for you to try their delicious desserts at least once.
+                </p>
+                <h4>John Harta</h4>
+                <div class="reviewControl">
+                  <button class="reviewBtn activeReview" index="0"><img src="images/tranding-food-1.png" alt="john"></button>
+                  <button class="reviewBtn" index="1"><img src="images/tranding-food-2.png" alt="dane"></button>
+                  <button class="reviewBtn" index="2"><img src="images/tranding-food-3.png" alt="anna"></button>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide reviewSlide">
+              <div class="reviewContent">
+                <p class="reviewText">
+                  The star of Bakemandu is undoubtedly their assortment of traditional Nepali pastries and bread. Each item is crafted with care and expertise, showcasing the diverse culinary heritage of the region. 
+                </p>
+                <h4>Dane Abel</h4>
+                <div class="reviewControl">
+                  <button class="reviewBtn" index="0"><img src="images/tranding-food-1.png" alt="john"></button>
+                  <button class="reviewBtn activeReview" index="1"><img src="images/tranding-food-2.png" alt="dane"></button>
+                  <button class="reviewBtn" index="2"><img src="images/tranding-food-3.png" alt="anna"></button>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide reviewSlide">
+              <div class="reviewContent">
+                <p class="reviewText">
+                  Such a gem! Not only are the pastries and donuts incredible, you cannot beat the prices and their allergens-free goods! Get here ASAP!
+                </p>
+                <h4>Anna Imelda</h4>
+                <div class="reviewControl">
+                  <button class="reviewBtn" index="0"><img src="images/tranding-food-1.png" alt="john"></button>
+                  <button class="reviewBtn" index="1"><img src="images/tranding-food-2.png" alt="dane"></button>
+                  <button class="reviewBtn activeReview" index="2"><img src="images/tranding-food-3.png" alt="anna"></button>
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+          </div>
+          <div class="reviewSlider-control">
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>
